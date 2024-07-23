@@ -78,7 +78,7 @@ const {isAuthenticated, setIsAuthenticated} = useContext(Context)
  </div>
  <div>
     <input type="number" placeholder="NIC" value= {nic} onChange={(e)=> setNic(e.target.value)}/>
-    <input type={"date" }placeholder="Date Of Birth" value = {dob} onChange= {(e)=>setPhone(e.target.value)}/>
+    <input type={"date" }placeholder="Date Of Birth" value = {dob} onChange= {(e)=>setDob(e.target.value)}/>
     
  </div>
  <div>

@@ -7,7 +7,8 @@ import { useNavigate } from 'react-router-dom';
 import {GiHamburgerMenu} from 'react-icons/gi';
 
 const Navbar = () => {  
-   const {show} = useState(false);
+//    const {show} = useState(false);
+const [show, setShow] = useState(false);
    const {isAuthenticated,setIsAuthenticated} = useContext(Context)
 
 
