@@ -65,7 +65,7 @@ const {isAuthenticated, setIsAuthenticated} = useContext(Context)
 <h2>Sign Up</h2>
 <p>Please Sign Up To Continue</p>
 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam inventore itaque nam consectetur non ratione saepe incidunt expedita quos rerum ducimus, neque mollitia consequatur quis accusantium eius. Soluta, nemo a?</p>
-<form onSumbit= {handleRegister}>
+<form onSubmit= {handleRegister}>
 
  <div>
     <input type="text" placeholder="First Name" value= {firstName} onChange={(e)=> setFirstName(e.target.value)}/>
